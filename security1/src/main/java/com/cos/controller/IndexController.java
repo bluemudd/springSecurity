@@ -57,7 +57,7 @@ public class IndexController {
 	}
 	@GetMapping("/join")
 	public String join(){
-		return "join";
+		return "joinproc";
 	}
 
 }
