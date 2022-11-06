@@ -55,5 +55,9 @@ public class IndexController {
 	public String joinForm() {
 		return "joinForm";
 	}
+	@GetMapping("/join")
+	public String join(){
+		return "join";
+	}
 
 }
