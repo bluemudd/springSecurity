@@ -59,5 +59,9 @@ public class IndexController {
 	public String join(){
 		return "joinproc";
 	}
+	@GetMapping("/loginProc")
+	public String loginProc() {
+		return "loginProc";
+	}
 
 }
